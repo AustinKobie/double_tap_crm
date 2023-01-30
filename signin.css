@@ -4,7 +4,6 @@
 form {
     text-align: center;
     margin-top: 0px;
-    
 }
 
 /* 
@@ -18,16 +17,12 @@ input[type="username"] {
     padding-left: 40px;
     border-radius: 30px;
     border: 1px solid gray;
-    
-    
 }
 .username {
     padding: 5px;
     text-align: center;
     margin-bottom: 0px;
     margin-top: 0px;
-
-    
 }
 
 input[type="email"] {
@@ -38,7 +33,6 @@ input[type="email"] {
     padding-left: 40px;
     border-radius: 30px;
     border: 1px solid gray;
-    
 }
 .email {
     padding: 5px;
@@ -86,6 +80,15 @@ button[type="sign-up"] {
     padding: 5px;
 }
 
+button[class="buttonsign"] {
+    background-color: #0850f8;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+
 /* 
 *Start Hero Styling
  */
@@ -116,6 +119,7 @@ button[type="sign-up"] {
     color: #0a0b0c;
     margin-bottom: 50px;
     margin-top: 0;
+    align-items: center;
 }
 
 .hero-image img {
@@ -123,7 +127,6 @@ button[type="sign-up"] {
     padding: 0px 0px 0px 0px;
     margin: 0px auto;
     border-radius: 25px;
-    
 }
 
 @media (max-width: 100%) {
@@ -145,7 +148,3 @@ button[type="sign-up"] {
 /* 
 * End Hero Styling
 */
-
-body {
-    height: 200px;
-}
